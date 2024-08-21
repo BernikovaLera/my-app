@@ -1,0 +1,46 @@
+.Modal{ 
+    background: rgba(118, 118, 118, 0.5); 
+    height: 100vh; 
+    width: 100vw; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    overflow: hidden;     
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    opacity: 0; 
+    animation: modal .1s 0s ease-in forwards; 
+} 
+ 
+@keyframes modal { 
+    from { opacity: 0  } 
+    to {  opacity: 1} 
+} 
+ 
+.Modal-window{ 
+    border-radius: 3px; 
+    box-shadow: 0 0 15px rgb(107, 107, 107); 
+    width: 50%; 
+    min-height: 150px; 
+    background: #fff; 
+} 
+ 
+.Modal-header, 
+.Modal-footer, 
+.Modal-content{ 
+    padding: 15px 20px; 
+} 
+ 
+.Modal-input-text{ 
+    border: 1px solid rgb(187, 187, 187); 
+    padding: 3px 4px; 
+    outline: 0; 
+    border-radius: 3px; 
+    display: block; 
+    width: 100%; 
+    margin: 4px 0; 
+} 
+.Modal-input-text:focus{
+    box-shadow: 0 0 0 3px rgb(70, 172, 255); 
+}

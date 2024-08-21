@@ -1,0 +1,7 @@
+.BasketItem { 
+    display: flex;
+    border: 1px solid rgb(235, 235, 235); 
+} 
+.BasketItem:hover { 
+    background: rgba(245, 245, 245, 0.5); 
+}

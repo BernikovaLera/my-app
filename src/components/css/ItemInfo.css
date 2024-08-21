@@ -1,0 +1,12 @@
+
+.ItemInfo { 
+    width: 60%; 
+  } 
+   
+  .ItemInfo_title { 
+    font-size: 1em; 
+  } 
+   
+  .ItemInfo_description { 
+    color: rgb(145, 145, 145); 
+  }

@@ -1,0 +1,14 @@
+.BasketTotal { 
+    display: flex; 
+    border: 1px solid rgb(235, 235, 235); 
+  } 
+  .BasketTotal_main { 
+    width: 93%; 
+  } 
+  .BasketTotal_price .ItemPrice { 
+    font-weight: bold; 
+    color: #000; 
+  } 
+  .BasketTotal_title { 
+    font-size: 1em; 
+  }

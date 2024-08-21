@@ -1,0 +1,17 @@
+.BasketPromoCode { 
+    display: flex; 
+    padding: 10px 0; 
+  }
+  .BasketPromoCode_input { 
+    width: 90%; 
+    padding: 10px 15px; 
+    border-radius: 3px; 
+    border: 1px solid rgb(235, 235, 235); 
+    border-radius: 3px 0 0 3px; 
+  } 
+  .BasketPromoCode .btn { 
+    border-radius: 0 3px 3px 0; 
+  } 
+  .BasketPromoCode_input:focus { 
+    outline: 1px solid rgb(235, 235, 235); 
+  }

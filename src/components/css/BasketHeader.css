@@ -1,0 +1,20 @@
+.BasketHeader { 
+    display: flex; 
+    margin: 10px 0; 
+  } 
+   
+  .BasketHeader_h2 { 
+    width: 95%; 
+    font-size: 1em; 
+    color: rgb(0, 87, 250); 
+  } 
+  .BasketHeader_count { 
+    min-width: 20px; 
+    height: 20px; 
+    background-color: rgb(0, 87, 250); 
+    color: #fff; 
+    border-radius: 20px; 
+    text-align: center; 
+    line-height: 1.8em; 
+    font-size: 0.7em; 
+  }

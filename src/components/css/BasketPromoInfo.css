@@ -1,0 +1,18 @@
+.BasketPromoInfo { 
+    display: flex; 
+    background: rgb(248, 251, 245); 
+    color: rgb(0, 86, 0); 
+    border: 1px solid rgb(235, 235, 235); 
+  } 
+   
+  .BasketPromoInfo_main { 
+    width: 92%; 
+  } 
+   
+  .BasketPromoInfo_title { 
+    font-size: 1em; 
+  } 
+  .BasketPromoInfo_description { 
+    font-size: 0.8em; 
+    text-transform: uppercase; 
+  }
